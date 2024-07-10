@@ -39,6 +39,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 652px;
+    background-size: cover;
    
 }
 .main_nav{
@@ -312,4 +313,115 @@ main .main_text_info{
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
+}
+.main_card_two{
+    position: static;
+    width: 1140px;
+    height: 708px;
+    margin: 0 auto;
+}
+.main_two{
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    border: 1px solid gainsboro;
+    
+}
+.main_two img{
+    width: 100px;
+    height: 80px;
+    position: relative;
+    top: 25px;
+    left:5px;
+}
+.right_section{
+    position: relative;
+    left: 20px;
+    padding: 10px;
+}
+.main_two_pra{
+    padding: 5px;
+}
+.main_two_heading{
+    padding: 5px;
+}
+
+.main_two_a{
+    padding: 5px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+
+.footer_section{
+    background-image: url('./assets/handshake.jpg');
+    width: 1140px;
+    height:400px;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+}
+
+.footer_header{
+    color: #fff;
+    position: relative;
+    top: 120px;
+    font-size: 48px;
+}
+.footer_text{
+    color: #fff;
+    position: relative;
+    top: 140px;
+    font-size: 16px;
+}
+input[type=text]{
+    color: #fff;
+    position: relative;
+    top: 210px;
+    font-size: 16px;
+    padding: 19px 20px 19px 20px;
+    width: 548px;
+    border-radius: 5px;
+    border: none;
+}
+.footer_button{
+    color: black;
+    position: relative;
+    top: 210px;
+    font-size: 16px;
+    padding: 19px 20px 19px 20px;
+    width: 120px;
+    height: 58px;
+    border-radius: 5px;
+}
+
+.footer_icon_name{
+    position: static;
+    width: 100%;
+    height:100px;
+    display: flex;
+    padding: 20px;
+   justify-content: space-between;
+    margin: 0 auto;
+    background-color: rgb(240, 243, 245);
+    align-items: center;
+
+}
+.footer_icon_name h2{
+   position: relative;
+   left: 80px;
+
+}
+.icon{
+    position: relative;
+    right: 80px;
+    
+}
+.icon img{
+    margin: 5px;
 }
