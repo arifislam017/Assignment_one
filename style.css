@@ -54,6 +54,7 @@
 .main_nav img{
     margin-top: 26px;
 }
+
 .haading_text{
     font-size: 48px;
     text-align: center;
@@ -84,6 +85,10 @@
     line-height: 23px;
     cursor: pointer;
     letter-spacing: 0;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
 }
 /* Main Nav Close */
 
