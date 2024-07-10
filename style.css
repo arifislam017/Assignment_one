@@ -119,15 +119,31 @@ main .main_text_info{
     
 }
 .layer_one{
-    margin-top: 96px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-around;
-  
+    padding: 5px;
+    align-items: center;
 }
 
+.layer_two{
+    display: flex;
+    align-items: center;
+    margin: 65px 0px 50px 150px;
+    width: 900px;
+    background-color: #fff;
+}
+.container_two{
+    margin:0px 0px 0px 45px;;
+}
 .contanier{
     width: 400px;
     height: auto;
+    background-color: #fff;
+}
+
+.image_one{
+    background-color: #fff;
 }
 .c_info{
     color: rgba(13, 19, 33, 0.7);
@@ -147,13 +163,153 @@ main .main_text_info{
 }
 .container_btn{
     width: 150px;
-    height: 48px;
-    color: rgb(13, 19, 29);
+    height: 40px;
+    color: rgba(13, 19, 33, 0.7);
     font-size: 20px;
     font-weight: 600;
     text-align: center;
     margin-top: 32px;
-    color: rgb(13, 19, 33);
     text-align: center;
     border: 1px solid rgba(13, 19, 33, 0.7);
+    border-radius: 3px;
+    
+}
+.main_section{
+    width: 1140px;
+    height: 1200px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
+}
+.inspration{
+    padding: 15px;
+    width: 1140px;
+    height: 777px;
+    margin: 0 auto;
+}
+.ins_info{
+    position: static;
+    width: 100%;
+    height: 39px;
+    text-align: center;
+    line-height: 37px;
+}
+.pra_info{
+    text-align: center;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 15px 0px 0px 0px;
+    color: rgba(13, 19, 33, 0.7);
+    letter-spacing: 0%;
+}
+.iframe_video{
+    margin-top: 50px;
+    position: static;
+    width: 1140px;
+    height: 614px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.card_section{
+    position: static;
+    width: 1140px;
+    height: 463px;
+    text-align: center;
+    margin: 150px auto;
+}
+.card{
+    margin: 30px 0px 0px 0px ;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+   
+}
+.card_section_one{
+    position: absolute;
+    background-color: aliceblue;
+    position: static;
+    width: 364px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.card_section_one img{
+    position: relative;
+    top: 40px;
+    left: 15px;
+    line-height: 40px;
+}
+.card_section_one .html_h1{
+    position: relative;
+    top: 70px;
+    left: 15px;
+    line-height: 40px;
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+}
+.card_section_one .p_card{
+    position: relative;
+    top: 90px;
+    left: 15px;
+    line-height: 40px;
+    text-align: left;
+    line-height: 20px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+}
+.card_section_one .a_card{
+    position: relative;
+    top: 120px;
+    left: 15px;
+    line-height: 40px;
+    text-align: left;
+    line-height: 20px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+.card_section_two{
+    display: flex;
+    border: 1px solid gainsboro;
+    width: 100%;
+    height: auto;
+}
+.text_section_two{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin:0px 0px 0px 20px;
+    line-height: 20px;
+    padding: 20px;
+}
+.image_two{
+    margin-top: 13px;
+    height: 100px;
+    width: 100px;
+    position: static;
+    display: flex;
+    align-items: center;
+    padding: 28px;  
+}
+.html_h2 {
+    padding: 5px;
+}
+.p_card_two{
+    padding: 5px;
+}
+.a_card_two{
+    padding: 5px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
 }
